@@ -62,6 +62,25 @@ GET    : /api/products: Retrieve all products
 GET    : /api/products/{id}: Retrieve a specific product by ID
 
 POST   : /api/products: Create a new product
+### Create Product
+
+- **Endpoint:** `POST /api/products`
+- **Description:** Create a new product.
+
+#### Request
+
+**Headers:**
+- `Content-Type: application/json`
+
+**Body:**
+```json
+{
+  "name": "Sample Product",
+  "description": "This is a sample product",
+  "price": 19.99,
+  "createdAt": "2024-08-21T10:00:00",
+  "updatedAt": "2024-08-21T10:00:00"
+}
 
 PUT    : /api/products/{id}: Update an existing product by ID
 
