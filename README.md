@@ -88,7 +88,7 @@ DELETE : /api/products/{id}
   "createdAt": "2024-08-21T10:00:00",
   "updatedAt": "2024-08-21T10:00:00"
 }
-` 
+```
 
 
 #### Additional Notes
