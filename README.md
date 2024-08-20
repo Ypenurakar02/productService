@@ -57,6 +57,17 @@ By default, the application uses an embedded H2 database. To switch to another d
 Swagger is enabled by default and can be accessed at the /swagger-ui/index.html endpoint.
 
 ### Endpoints
+### Retrieve all products
+GET    : /api/products
+
+### Retrieve a specific product by ID
+GET    : /api/products/{id} 
+
+### Update an existing product by ID
+PUT    : /api/products/{id}
+
+### Delete a product by ID
+DELETE : /api/products/{id}
 
 ### Create Product
 
@@ -77,21 +88,10 @@ Swagger is enabled by default and can be accessed at the /swagger-ui/index.html 
   "createdAt": "2024-08-21T10:00:00",
   "updatedAt": "2024-08-21T10:00:00"
 }
-
-### Retrieve all products
-GET    : /api/products
-
-### Retrieve a specific product by ID
-GET    : /api/products/{id} 
-
-### Update an existing product by ID
-PUT    : /api/products/{id}
-
-### Delete a product by ID
-DELETE : /api/products/{id} 
+ 
 
 
-### Additional Notes
+#### Additional Notes
 **Error Handling:**
 The application provides basic error handling with meaningful HTTP status codes.
 
