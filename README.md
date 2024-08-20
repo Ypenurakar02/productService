@@ -80,7 +80,7 @@ POST   : /api/products: Create a new product
   "price": 19.99,
   "createdAt": "2024-08-21T10:00:00",
   "updatedAt": "2024-08-21T10:00:00"
-}
+}```
 
 PUT    : /api/products/{id}: Update an existing product by ID
 
