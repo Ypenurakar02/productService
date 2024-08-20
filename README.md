@@ -91,7 +91,7 @@ DELETE : /api/products/{id}
 ```
 
 
-#### Additional Notes
+### Additional Notes
 **Error Handling:**
 The application provides basic error handling with meaningful HTTP status codes.
 
