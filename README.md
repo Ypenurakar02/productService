@@ -57,17 +57,13 @@ By default, the application uses an embedded H2 database. To switch to another d
 Swagger is enabled by default and can be accessed at the /swagger-ui/index.html endpoint.
 
 ### Endpoints
-GET    : /api/products: Retrieve all products
 
-GET    : /api/products/{id}: Retrieve a specific product by ID
-
-POST   : /api/products: Create a new product
 ### Create Product
 
 - **Endpoint:** `POST /api/products`
 - **Description:** Create a new product.
 
-#### Request
+### Request
 
 **Headers:**
 - `Content-Type: application/json`
@@ -82,10 +78,17 @@ POST   : /api/products: Create a new product
   "updatedAt": "2024-08-21T10:00:00"
 }
 
+### Retrieve all products
+GET    : /api/products
 
-PUT    : /api/products/{id}: Update an existing product by ID
+### Retrieve a specific product by ID
+GET    : /api/products/{id} 
 
-DELETE : /api/products/{id}: Delete a product by ID
+### Update an existing product by ID
+PUT    : /api/products/{id}
+
+### Delete a product by ID
+DELETE : /api/products/{id} 
 
 
 ### Additional Notes
